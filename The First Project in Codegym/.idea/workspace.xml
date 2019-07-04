@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf0186c0-9158-499d-bc8f-d3b43b036534" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/validator/CourseValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/database/version6_10_05_classes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/controller/EmployeesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/repository/EmployeesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/EmployeesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/impl/EmployeesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/employee/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/employee/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/controller/CampaignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/controller/CampaignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/service/impl/ClassRoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/java/dn/codegym/crm/service/impl/ClassRoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/campaign/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/campaign/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/class/class-students.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/class/class-students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/class/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/class/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/course/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/course/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-13-05/src/main/resources/templates/course/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/database/version8-product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/database/version8-product.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/java/dn/codegym/crm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/java/dn/codegym/crm/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/java/dn/codegym/crm/entity/ClassRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/java/dn/codegym/crm/entity/ClassRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/class/class-students.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/class/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/class/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/class/list-students.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/class/list-students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/class/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/class/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm-16-05/src/main/resources/templates/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/dto/ClassRoomDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/dto/ClassRoomDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/entity/ClassRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/entity/ClassRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/repository/ClassRoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/repository/ClassRoomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/ClassRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/ClassRoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/impl/CampaignServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/impl/CampaignServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/impl/ClassRoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/impl/ClassRoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/java/dn/codegym/crm/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/class-students.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/list-students.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/list-students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/class/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/course/classListView.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/course/classListView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/course/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/course/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/lead/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/lead/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/student/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/codegym-crm_1/src/main/resources/templates/student/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/database/codegym-crm-sql23-04-2019-version-1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/database/codegym-crm-sql23-04-2019-version-2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/database/codegym-crm-sql23-04-2019-version-3.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/database/version3.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/database/version4.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/controller/CampaignController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/controller/LeadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/dto/CampaignDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/dto/ClassRoomDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/dto/CourseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/dto/LeadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/dto/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/entity/Campaign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/entity/ClassRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/entity/Lead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/repository/CampaignRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/repository/ClassRoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/repository/LeadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/CampaignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/ClassRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/CourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/LeadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/impl/CampaignServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/impl/ClassRoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/impl/CourseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/impl/LeadServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/java/dn/codegym/crm/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/addLeads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/move.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/campaign/viewLeads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/class/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/class/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/class/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/class/list-students.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/class/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/class/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/course/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/course/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/course/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/course/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/fragments/main_layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/lead/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/lead/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/lead/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/lead/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/student/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/resources/templates/student/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/student/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/student/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/exemple/src/main/resources/templates/student/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/student/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple/src/main/resources/templates/student/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manager_employees/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/database/codegym-crm-sql23-04-2019-version-1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/database/codegym-crm-sql23-04-2019-version-2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/database/codegym-crm-sql23-04-2019-version-3.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/database/version3.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/database/version4.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/CodegymCrmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/EmployeesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/controller/CampaignController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/controller/ClassRoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/controller/LeadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/dto/CampaignDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/dto/ClassRoomDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/dto/CourseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/dto/LeadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/dto/StudentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/entity/Campaign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/entity/ClassRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/entity/Lead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/repository/CampaignRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/repository/ClassRoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/repository/LeadRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/repository/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/CampaignService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/ClassRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/CourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/LeadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/impl/CampaignServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/impl/ClassRoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/impl/CourseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/impl/LeadServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/java/dn/codegym/crm/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/manager_employees/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/addLeads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/move.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/campaign/viewLeads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/class/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/class/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/class/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/class/list-students.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/class/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/class/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/course/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/course/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/course/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/course/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/fragments/main_layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/lead/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/lead/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/lead/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/lead/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/student/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/student/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/student/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/student/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager_employees/src/main/resources/templates/student/view.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/codegym-crm-13-05" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="621" />
+    <option name="y" value="163" />
+    <option name="width" value="834" />
+    <option name="height" value="701" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf0186c0-9158-499d-bc8f-d3b43b036534" name="Default Changelist" comment="" />
+      <created>1559752110889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559752110889</updated>
+      <workItem from="1559752113017" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="621" y="163" width="834" height="701" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

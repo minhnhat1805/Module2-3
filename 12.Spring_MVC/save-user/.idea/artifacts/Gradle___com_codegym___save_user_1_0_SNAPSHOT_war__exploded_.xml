@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : com.codegym : save-user-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/save-user-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/save-user-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="com.codegym.save-user.main/web/Web Gradle : save-user-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.codegym.save-user.main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.17.RELEASE/ee8dd0c586481e795787dc8b28a39e0418cb8fa2/spring-webmvc-4.3.17.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.2/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/taglibs/standard/1.1.2/a17e8a4d9a1f7fcc5eed606721c9ed6b7f18acf7/standard-1.1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring4/3.0.4.RELEASE/3bd9a247f71012827b36d483bd541a1f0748a0bc/thymeleaf-spring4-3.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.17.RELEASE/2786be085d48f0b6d304a89cbbd186a969aa92aa/spring-web-4.3.17.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.17.RELEASE/68b87279ada66e04df251917c839a604ceff82f0/spring-context-4.3.17.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.17.RELEASE/b83e9434298106e7705b31150aee2d4e0fb2cf61/spring-aop-4.3.17.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.17.RELEASE/6f8ce46b6f446b8875f0b3160b6b1978973d4d0b/spring-beans-4.3.17.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.17.RELEASE/a7ed4d874c28aca9ad8cd1a65c58eb62c05994b7/spring-expression-4.3.17.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.17.RELEASE/77814c99de6f8282c64a4d604024c70e238037ae/spring-core-4.3.17.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.4.RELEASE/a44b917d0b6f733b569f1506f42c25d915b388ec/thymeleaf-3.0.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.6/ce53b0a0e2cfbb27e8a59d38f79a18a5c6a8d2b0/slf4j-api-1.6.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.3.RELEASE/50273dec283be3c30750e42ff6542ea5041e6169/attoparser-2.0.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.4.RELEASE/1ef1371149efc31d72d35dc290cf16c1a4736a12/unbescape-1.1.4.RELEASE.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

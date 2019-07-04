@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/codegym-crm-13-05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codegym-crm-16-05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codegym-crm_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/exemple" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/manager_employees" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-security" vcs="Git" />
+  </component>
+</project>

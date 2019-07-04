@@ -1,0 +1,123 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="wrapper">
+    <div class="page-header clear-filter" filter-color="orange">
+        <div class="page-header-image rellax-header" data-rellax-speed="-7"
+            style="background-image: url('assets/img/husky.jpg');">
+
+        </div>
+        <div class="container col-md-12">
+            <br><br>
+            <hr>
+            <div>
+                <button><i style="font-size:24px" class="fa">&#xf2bc;</i> List
+                    Classes</button>&nbsp;
+                <button (click)="addClass()"><i style="font-size:18px" class="fa">&#xf234;</i> Add
+                    class</button>
+            </div>
+            <h2>All Classes</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search By Name" [(ngModel)]="searchTerm" />
+            </div>
+
+            <br>
+            <div class="table-responsive table-container">
+                <table class="table table-dark table-hover table-striped">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Name</th>
+                            <th>Learning Status</th>
+                            <th>Start Day</th>
+                            <th>End day</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr
+                            *ngFor="let classroom of classrooms | classFilter:searchTerm | paginate: { itemsPerPage: 5, currentPage: p }">
+                            <!-- <td>{{classroom.name}}</td> -->
+                            <td>
+                                
+                                <a (click)="openModal(template1)"><i style='font-size:16px' class='far'>&#xf15c;&nbsp;{{classroom.name}}</i></a>
+                                <ng-template #template1>
+                                    <div class="modal-body text-center">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title pull-left">Class Detail</h4>
+                                            <button type="button" class="close pull-right" aria-label="Close"
+                                                (click)="modalRef.hide()">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <table class="table" >
+                                            <tr>
+                                                <td>Name:</td>
+                                                <td>{{classroom.name}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Start day:</td>
+                                                <td>{{classroom.startDay}}</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>End Day:</td>
+                                                <td>{{classroom.endDay}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Learning Status:</td>
+                                                <td>{{classroom.learningStatus}}</td>
+                                            </tr>
+
+                                        </table>
+                                        <button type="button" class="btn btn-primary" (click)="decline()">Close</button>
+                                    </div>
+                                </ng-template>
+
+                            </td>
+
+
+
+
+
+                           
+                            <td>{{classroom.learningStatus}}</td>
+                            <td>{{classroom.startDay}}</td>
+                            <td>{{classroom.endDay}}</td>
+                            <td>
+                                <!--<button (click)=" deleteClass(classroom)" class="btn btn-info">Delete</button>-->
+                                <button type="button" class="btn btn-info" (click)="openModal1(template)"><i
+                                        style="font-size:18px" class="fa">&#xf1f8;</i> Delete</button>
+                                <ng-template #template>
+                                    <div class="modal-body text-center">
+                                        <div class="modal-header">
+                                            <h4 class="modal-title pull-left">Delete class</h4>
+                                            <button type="button" class="close pull-right" aria-label="Close"
+                                                (click)="modalRef.hide()">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <p>Do you want to confirm?</p>
+                                        <button type="button" class="btn btn-default"
+                                            (click)="deleteClass(classroom)">Yes</button>
+                                        <button type="button" class="btn btn-primary" (click)="decline()">No</button>
+                                    </div>
+                                </ng-template>
+
+                                <button (click)="updateClass(classroom)" style="margin-left: 20px;"
+                                    class="btn btn-info"><i style="font-size:18px" class="fa">&#xf044;</i> Edit</button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                <ul class="pagination">
+                    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</div>

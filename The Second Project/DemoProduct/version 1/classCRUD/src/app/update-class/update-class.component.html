@@ -1,0 +1,41 @@
+<div class="col-md-3">
+  <h2 class="text-center">Edit Class</h2>
+  <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Name class:</label>
+      <input type="text" formControlName="name"  class="form-control" [ngClass]="{ 'is-invalid': submitted && f.name.errors }">
+      <div *ngIf="submitted && f.name.errors">
+        <div *ngIf="f.name.errors.required">Name is required</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Learning Status:</label>
+      <select type="text" formControlName="learningStatus"   class="form-control" [ngClass]="{ 'is-invalid': submitted && f.learningStatus.errors }">
+          <option value="Learning" selected>Learning</option>
+          <option value="Graduated">Graduated</option>
+      </select>
+      <div *ngIf="submitted && f.learningStatus.errors">
+        <div *ngIf="f.learningStatus.errors.required">Learning Status is required</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Start Day:</label>
+      <input type="date" formControlName="startDay" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.startDay.errors }">
+      <div *ngIf="submitted && f.startDay.errors">
+        <div *ngIf="f.startDay.errors.required">Start Day is required</div>
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label>End Day:</label> 
+        <input type="date" formControlName="endDay"  class="form-control" [ngClass]="{ 'is-invalid': submitted && f.endDay.errors }">
+        <div *ngIf="submitted && f.endDay.errors">
+          <div *ngIf="f.endDay.errors.required">End Day is required</div>
+        </div>
+    </div>
+
+    <button type="submit"  class="btn btn-info">Update</button>
+  </form>
+</div>

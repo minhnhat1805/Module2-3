@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>View Category</title>
+</head>
+<body>
+<form th:action="@{view-category}" th:object="${category}" th:method="get">
+<table>
+<p th:text="${category.nameCategory}"></p>
+<tr>
+<td>Titel Blog</td>
+<td>Status</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
